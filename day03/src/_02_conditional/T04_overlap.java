@@ -14,6 +14,11 @@ public class T04_overlap {
 		   
 		 */
 		
+		int num1 = 78;
+		if(num1 > 100) {System.out.println("200보다 큰수");}
+		else {System.out.println("101~200사리의 숫자");}
+		
+		
 		
 				
 			

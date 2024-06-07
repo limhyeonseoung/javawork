@@ -8,10 +8,7 @@ public class T02_Ex01 {
 		
 	// 국어,컴퓨터,수학 점수를 입력받아 저장하고
     // 총점과 평균을 출력하세요
-		Scanner scan=new Scanner(System.in);
-		System.out.print("국어점수를 입력하세요 : ");
-		double grade = scan.nextDoublue();
-		System.out.println("점수" + grade);
+		
 		
 		
 	

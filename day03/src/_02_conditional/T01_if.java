@@ -11,28 +11,28 @@ public class T01_if {
 		    조건이 참일때 실행할 프로그램
 		 }   
 		 */
-		
+
 		int num1 = 100;
 		// if문의 실행할 코드가 한줄일때는 중괄호({})를 안넣어도되고 넣어도됨
 		if(num1 == 100)
 			System.out.println("100점입니다");
-		
+
 		//if문의 실행할코드가 한줄 이상일때는반드시 중괄호를 넣어준다
 		if(num1 == 100) {
 			System.out.println("100점입니다.");
-		    System.out.println("안녕");
+			System.out.println("안녕");
 		}
-		
-		
+
+
 		int num2 = 89;
 		if(num1 <num2) {
 			System.out.println(num1 + "은" + num2 + "보다작다");
-		    System.out.println("if문 입니다");
+			System.out.println("if문 입니다");
 
 		}
-		
+
 		// 사용자로부터 점수를 입력받아 80점 이상이면 합격입니다 . 축하하합니다
-		
+
 		Scanner scan = new Scanner(System.in);
 		System.out.println("점수 입력 : ");
 		int score =scan.nextInt();
@@ -40,12 +40,12 @@ public class T01_if {
 			System.out.println("합격입니다");
 			System.out.println("축하합니다");
 		}
-		
-				
-		
-		}
-		
-		
+
+
+
 	}
+
+
+}
 
 

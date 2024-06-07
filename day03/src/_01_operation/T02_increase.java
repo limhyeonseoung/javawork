@@ -52,6 +52,12 @@ public class T02_increase {
 		result = ++num2 + num3-- - num4++;
 		System.out.println(result);
 		
+		int num5 = 20;
+		int num6 = 20;
+		int re2 = ++num5 + ++num6;
+		System.out.println(re2);
+		
+		
 		
 		
 		
